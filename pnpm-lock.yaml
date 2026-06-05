@@ -51,11 +51,11 @@ importers:
         specifier: 4.2.2
         version: 4.2.2(prettier@3.8.3)
       release-it:
-        specifier: 20.0.1
-        version: 20.0.1
+        specifier: 20.2.0
+        version: 20.2.0
       release-it-plugin-esm-bundle:
         specifier: 3.0.0
-        version: 3.0.0(release-it@20.0.1)
+        version: 3.0.0(release-it@20.2.0)
       rollup:
         specifier: 4.60.4
         version: 4.60.4
@@ -1466,8 +1466,8 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
 
-  release-it@20.0.1:
-    resolution: {integrity: sha512-3ob1P1aV+3+ZOoR7qgobfYyMlQbpitzOK09iKTtQ145vFi4rWxlRTgHwtVl8kokCvqiF/cJPxRlfcmZmF5aDJA==}
+  release-it@20.2.0:
+    resolution: {integrity: sha512-9ZTk9ripgctC6VTqH+P54KuboK29A5mG/I3tFfS5hnoAnkwtFFAMHRidYz93ylrW995vF50Ny1aOGJiyRmEN7w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     hasBin: true
 
@@ -3086,11 +3086,11 @@ snapshots:
 
   readdirp@5.0.0: {}
 
-  release-it-plugin-esm-bundle@3.0.0(release-it@20.0.1):
+  release-it-plugin-esm-bundle@3.0.0(release-it@20.2.0):
     dependencies:
-      release-it: 20.0.1
+      release-it: 20.2.0
 
-  release-it@20.0.1:
+  release-it@20.2.0:
     dependencies:
       '@inquirer/prompts': 8.4.2
       '@octokit/rest': 22.0.1
